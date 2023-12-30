@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20C353C52B40DA1E00042C5E /* Score Board Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 20C353C42B40DA1E00042C5E /* Score Board Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		20C353CA2B40DA1E00042C5E /* Score_BoardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C353C92B40DA1E00042C5E /* Score_BoardApp.swift */; };
+		20C353CC2B40DA1E00042C5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C353CB2B40DA1E00042C5E /* ContentView.swift */; };
+		20C353CE2B40DA2100042C5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C353CD2B40DA2100042C5E /* Assets.xcassets */; };
+		20C353D12B40DA2100042C5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C353D02B40DA2100042C5E /* Preview Assets.xcassets */; };
+		20C353DB2B40DA2100042C5E /* Score_Board_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C353DA2B40DA2100042C5E /* Score_Board_Watch_AppTests.swift */; };
+		20C353E52B40DA2100042C5E /* Score_Board_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C353E42B40DA2100042C5E /* Score_Board_Watch_AppUITests.swift */; };
+		20C353E72B40DA2100042C5E /* Score_Board_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C353E62B40DA2100042C5E /* Score_Board_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20C353C62B40DA1E00042C5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20C353B82B40DA1D00042C5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20C353C32B40DA1E00042C5E;
+			remoteInfo = "Score Board Watch App";
+		};
+		20C353D72B40DA2100042C5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20C353B82B40DA1D00042C5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20C353C32B40DA1E00042C5E;
+			remoteInfo = "Score Board Watch App";
+		};
+		20C353E12B40DA2100042C5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20C353B82B40DA1D00042C5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20C353C32B40DA1E00042C5E;
+			remoteInfo = "Score Board Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		20C353ED2B40DA2100042C5E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				20C353C52B40DA1E00042C5E /* Score Board Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		20C353BE2B40DA1E00042C5E /* Score Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Score Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C353C42B40DA1E00042C5E /* Score Board Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Score Board Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C353C92B40DA1E00042C5E /* Score_BoardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score_BoardApp.swift; sourceTree = "<group>"; };
+		20C353CB2B40DA1E00042C5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		20C353CD2B40DA2100042C5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20C353D02B40DA2100042C5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20C353D62B40DA2100042C5E /* Score Board Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Score Board Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C353DA2B40DA2100042C5E /* Score_Board_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score_Board_Watch_AppTests.swift; sourceTree = "<group>"; };
+		20C353E02B40DA2100042C5E /* Score Board Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Score Board Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C353E42B40DA2100042C5E /* Score_Board_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score_Board_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		20C353E62B40DA2100042C5E /* Score_Board_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score_Board_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20C353C12B40DA1E00042C5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C353D32B40DA2100042C5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C353DD2B40DA2100042C5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20C353B72B40DA1D00042C5E = {
+			isa = PBXGroup;
+			children = (
+				20C353C82B40DA1E00042C5E /* Score Board Watch App */,
+				20C353D92B40DA2100042C5E /* Score Board Watch AppTests */,
+				20C353E32B40DA2100042C5E /* Score Board Watch AppUITests */,
+				20C353BF2B40DA1E00042C5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20C353BF2B40DA1E00042C5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20C353BE2B40DA1E00042C5E /* Score Board.app */,
+				20C353C42B40DA1E00042C5E /* Score Board Watch App.app */,
+				20C353D62B40DA2100042C5E /* Score Board Watch AppTests.xctest */,
+				20C353E02B40DA2100042C5E /* Score Board Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20C353C82B40DA1E00042C5E /* Score Board Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				20C353C92B40DA1E00042C5E /* Score_BoardApp.swift */,
+				20C353CB2B40DA1E00042C5E /* ContentView.swift */,
+				20C353CD2B40DA2100042C5E /* Assets.xcassets */,
+				20C353CF2B40DA2100042C5E /* Preview Content */,
+			);
+			path = "Score Board Watch App";
+			sourceTree = "<group>";
+		};
+		20C353CF2B40DA2100042C5E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				20C353D02B40DA2100042C5E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		20C353D92B40DA2100042C5E /* Score Board Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				20C353DA2B40DA2100042C5E /* Score_Board_Watch_AppTests.swift */,
+			);
+			path = "Score Board Watch AppTests";
+			sourceTree = "<group>";
+		};
+		20C353E32B40DA2100042C5E /* Score Board Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20C353E42B40DA2100042C5E /* Score_Board_Watch_AppUITests.swift */,
+				20C353E62B40DA2100042C5E /* Score_Board_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Score Board Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20C353BD2B40DA1D00042C5E /* Score Board */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C353EE2B40DA2100042C5E /* Build configuration list for PBXNativeTarget "Score Board" */;
+			buildPhases = (
+				20C353BC2B40DA1D00042C5E /* Resources */,
+				20C353ED2B40DA2100042C5E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20C353C72B40DA1E00042C5E /* PBXTargetDependency */,
+			);
+			name = "Score Board";
+			productName = "Score Board";
+			productReference = 20C353BE2B40DA1E00042C5E /* Score Board.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		20C353C32B40DA1E00042C5E /* Score Board Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C353EA2B40DA2100042C5E /* Build configuration list for PBXNativeTarget "Score Board Watch App" */;
+			buildPhases = (
+				20C353C02B40DA1E00042C5E /* Sources */,
+				20C353C12B40DA1E00042C5E /* Frameworks */,
+				20C353C22B40DA1E00042C5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Score Board Watch App";
+			productName = "Score Board Watch App";
+			productReference = 20C353C42B40DA1E00042C5E /* Score Board Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20C353D52B40DA2100042C5E /* Score Board Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C353F12B40DA2100042C5E /* Build configuration list for PBXNativeTarget "Score Board Watch AppTests" */;
+			buildPhases = (
+				20C353D22B40DA2100042C5E /* Sources */,
+				20C353D32B40DA2100042C5E /* Frameworks */,
+				20C353D42B40DA2100042C5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20C353D82B40DA2100042C5E /* PBXTargetDependency */,
+			);
+			name = "Score Board Watch AppTests";
+			productName = "Score Board Watch AppTests";
+			productReference = 20C353D62B40DA2100042C5E /* Score Board Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20C353DF2B40DA2100042C5E /* Score Board Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C353F42B40DA2100042C5E /* Build configuration list for PBXNativeTarget "Score Board Watch AppUITests" */;
+			buildPhases = (
+				20C353DC2B40DA2100042C5E /* Sources */,
+				20C353DD2B40DA2100042C5E /* Frameworks */,
+				20C353DE2B40DA2100042C5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20C353E22B40DA2100042C5E /* PBXTargetDependency */,
+			);
+			name = "Score Board Watch AppUITests";
+			productName = "Score Board Watch AppUITests";
+			productReference = 20C353E02B40DA2100042C5E /* Score Board Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20C353B82B40DA1D00042C5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					20C353BD2B40DA1D00042C5E = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					20C353C32B40DA1E00042C5E = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					20C353D52B40DA2100042C5E = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 20C353C32B40DA1E00042C5E;
+					};
+					20C353DF2B40DA2100042C5E = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 20C353C32B40DA1E00042C5E;
+					};
+				};
+			};
+			buildConfigurationList = 20C353BB2B40DA1D00042C5E /* Build configuration list for PBXProject "Score Board" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20C353B72B40DA1D00042C5E;
+			productRefGroup = 20C353BF2B40DA1E00042C5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20C353BD2B40DA1D00042C5E /* Score Board */,
+				20C353C32B40DA1E00042C5E /* Score Board Watch App */,
+				20C353D52B40DA2100042C5E /* Score Board Watch AppTests */,
+				20C353DF2B40DA2100042C5E /* Score Board Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20C353BC2B40DA1D00042C5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C353C22B40DA1E00042C5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C353D12B40DA2100042C5E /* Preview Assets.xcassets in Resources */,
+				20C353CE2B40DA2100042C5E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C353D42B40DA2100042C5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C353DE2B40DA2100042C5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20C353C02B40DA1E00042C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C353CC2B40DA1E00042C5E /* ContentView.swift in Sources */,
+				20C353CA2B40DA1E00042C5E /* Score_BoardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C353D22B40DA2100042C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C353DB2B40DA2100042C5E /* Score_Board_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C353DC2B40DA2100042C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C353E72B40DA2100042C5E /* Score_Board_Watch_AppUITestsLaunchTests.swift in Sources */,
+				20C353E52B40DA2100042C5E /* Score_Board_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20C353C72B40DA1E00042C5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20C353C32B40DA1E00042C5E /* Score Board Watch App */;
+			targetProxy = 20C353C62B40DA1E00042C5E /* PBXContainerItemProxy */;
+		};
+		20C353D82B40DA2100042C5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20C353C32B40DA1E00042C5E /* Score Board Watch App */;
+			targetProxy = 20C353D72B40DA2100042C5E /* PBXContainerItemProxy */;
+		};
+		20C353E22B40DA2100042C5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20C353C32B40DA1E00042C5E /* Score Board Watch App */;
+			targetProxy = 20C353E12B40DA2100042C5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20C353E82B40DA2100042C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20C353E92B40DA2100042C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		20C353EB2B40DA2100042C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Score Board Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = J5JNP37N9D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Score Board";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "evanperry.Score-Board.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		20C353EC2B40DA2100042C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Score Board Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = J5JNP37N9D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Score Board";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "evanperry.Score-Board.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		20C353EF2B40DA2100042C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5JNP37N9D;
+				INFOPLIST_KEY_CFBundleDisplayName = "Score Board";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "evanperry.Score-Board";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		20C353F02B40DA2100042C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5JNP37N9D;
+				INFOPLIST_KEY_CFBundleDisplayName = "Score Board";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "evanperry.Score-Board";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20C353F22B40DA2100042C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5JNP37N9D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "evanperry.Score-Board-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Score Board Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Score Board Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		20C353F32B40DA2100042C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5JNP37N9D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "evanperry.Score-Board-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Score Board Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Score Board Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		20C353F52B40DA2100042C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5JNP37N9D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "evanperry.Score-Board-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Score Board Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		20C353F62B40DA2100042C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5JNP37N9D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "evanperry.Score-Board-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Score Board Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20C353BB2B40DA1D00042C5E /* Build configuration list for PBXProject "Score Board" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C353E82B40DA2100042C5E /* Debug */,
+				20C353E92B40DA2100042C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20C353EA2B40DA2100042C5E /* Build configuration list for PBXNativeTarget "Score Board Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C353EB2B40DA2100042C5E /* Debug */,
+				20C353EC2B40DA2100042C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20C353EE2B40DA2100042C5E /* Build configuration list for PBXNativeTarget "Score Board" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C353EF2B40DA2100042C5E /* Debug */,
+				20C353F02B40DA2100042C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20C353F12B40DA2100042C5E /* Build configuration list for PBXNativeTarget "Score Board Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C353F22B40DA2100042C5E /* Debug */,
+				20C353F32B40DA2100042C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20C353F42B40DA2100042C5E /* Build configuration list for PBXNativeTarget "Score Board Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C353F52B40DA2100042C5E /* Debug */,
+				20C353F62B40DA2100042C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20C353B82B40DA1D00042C5E /* Project object */;
+}
