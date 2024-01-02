@@ -10,7 +10,8 @@ import SwiftUI
 struct ContentView: View {
     @State private var NumScore = 0;
     @State private var Win = false;
-    @State private var RanWin = 0;
+    @State private var RanWin = 10;
+    let RanWinTable = [5,10,15,20]
     var body: some View {
     HStack(spacing: 10
 ) {
@@ -22,14 +23,14 @@ struct ContentView: View {
                     .clipShape(.capsule)
                     
             }else {
-                Text("\(10 - NumScore)" + " Points To Win")
+                Text("\(RanWin - NumScore)" + " Points To Win")
                     .padding()
                     .multilineTextAlignment(.center)
                     .clipShape(.capsule)
             }
                 
             Button(){
-                
+                RanWin = RanWinTable.randomElement() ?? 10
             }label: {
                 Text("Random Goal")
                     
@@ -38,11 +39,11 @@ struct ContentView: View {
         }
         VStack {
             Button(){
-                if NumScore != 10 {
+                if NumScore != RanWin {
                     Win = false
                     NumScore += 1
                 }
-                if NumScore == 10 {
+                if NumScore == RanWin {
                     Win = true
                     return
                 }
