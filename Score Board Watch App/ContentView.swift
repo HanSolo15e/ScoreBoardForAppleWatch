@@ -31,9 +31,11 @@ struct ContentView: View {
                 
             Button(){
                 RanWin = RanWinTable.randomElement() ?? 10
+                NumScore = 0
+                Win = false
             }label: {
                 Text("Random Goal")
-                    
+            
             }
             .padding()
         }
