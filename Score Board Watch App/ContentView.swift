@@ -8,14 +8,48 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var NumScore = 0;
+    @State private var Win = false;
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+    VStack {
+        HStack {
+            Button(){
+                if NumScore >= 10 {
+                    Win = true
+                    return
+                } else {
+                    Win = false
+                }
+                NumScore += 1
+            }label: {
+                Image(systemName: "arrowshape.up.fill")
+            }.padding()
+            
+            
+            
+            Text("\(NumScore)")
+            Button(){
+                if NumScore <= 0 {
+                    return
+                }
+                Win = false
+                NumScore -= 1
+            }label: {
+                Image(systemName: "arrowshape.down.fill")
+            }.padding()
         }
-        .padding()
+        if Win == true {
+            Text("You Win!")
+                .padding()
+                .background(.green)
+                .clipShape(.capsule)
+        }else {
+            Text("\(10 - NumScore)" + " Points Left")
+                .padding()
+                .background(.red)
+                .clipShape(.capsule)
+        }
+    }
     }
 }
 
